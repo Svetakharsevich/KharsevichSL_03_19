@@ -1,0 +1,55 @@
+﻿  Modul3.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(1528,1): error C2664: "bool Sort::<lambda_1>::operator ()(const Sport &,const Sport &) const": невозможно преобразовать аргумент 1 из "char" в "const Sport &"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(1528,1): message : Причина: невозможно преобразовать "char" в "const Sport"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(1528,1): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\307-08\Desktop\KharsevichSL_03_19\Modul3\Modul3.cpp(41,79): message : см. объявление "Sort::<lambda_1>::operator ()"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility(1527): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool std::_Debug_lt_pred<_Pr&,char&,char&,0>(Sort::<lambda_1>&,_Ty1,_Ty2) noexcept(<expr>)"
+          with
+          [
+              _Pr=Sort::<lambda_1>,
+              _Ty1=char &,
+              _Ty2=char &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7274): message : выполняется компиляция ссылки на экземпляр шаблон функции "_BidIt std::_Insertion_sort_unchecked<_RanIt,_Pr>(const _BidIt,const _BidIt,_Pr)"
+          with
+          [
+              _BidIt=char *,
+              _RanIt=char *,
+              _Pr=Sort::<lambda_1>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7304): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Sort_unchecked<char*,_Fn>(_RanIt,_RanIt,__int64,_Pr)"
+          with
+          [
+              _Fn=Sort::<lambda_1>,
+              _RanIt=char *,
+              _Pr=Sort::<lambda_1>
+          ]
+C:\Users\307-08\Desktop\KharsevichSL_03_19\Modul3\Modul3.cpp(43): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::sort<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,Sort::<lambda_1>>(const _RanIt,const _RanIt,_Pr)"
+          with
+          [
+              _Elem=char,
+              _RanIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _Pr=Sort::<lambda_1>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7212,16): error C2664: "bool Sort::<lambda_1>::operator ()(const Sport &,const Sport &) const": невозможно преобразовать аргумент 1 из "char" в "const Sport &"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7204,1): message : Причина: невозможно преобразовать "char" в "const Sport"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7204,1): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\307-08\Desktop\KharsevichSL_03_19\Modul3\Modul3.cpp(41,79): message : см. объявление "Sort::<lambda_1>::operator ()"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7274): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,_Pr>(_RanIt,_RanIt,_Pr)"
+          with
+          [
+              _RanIt=char *,
+              _Pr=Sort::<lambda_1>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7216,76): error C2664: "bool Sort::<lambda_1>::operator ()(const Sport &,const Sport &) const": невозможно преобразовать аргумент 1 из "char" в "const Sport &"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7204,1): message : Причина: невозможно преобразовать "char" в "const Sport"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7204,1): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\307-08\Desktop\KharsevichSL_03_19\Modul3\Modul3.cpp(41,79): message : см. объявление "Sort::<lambda_1>::operator ()"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7227,24): error C2664: "bool Sort::<lambda_1>::operator ()(const Sport &,const Sport &) const": невозможно преобразовать аргумент 1 из "char" в "const Sport &"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7204,1): message : Причина: невозможно преобразовать "char" в "const Sport"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7204,1): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\307-08\Desktop\KharsevichSL_03_19\Modul3\Modul3.cpp(41,79): message : см. объявление "Sort::<lambda_1>::operator ()"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7240,24): error C2664: "bool Sort::<lambda_1>::operator ()(const Sport &,const Sport &) const": невозможно преобразовать аргумент 1 из "char" в "const Sport &"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7204,1): message : Причина: невозможно преобразовать "char" в "const Sport"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7204,1): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\307-08\Desktop\KharsevichSL_03_19\Modul3\Modul3.cpp(41,79): message : см. объявление "Sort::<lambda_1>::operator ()"
